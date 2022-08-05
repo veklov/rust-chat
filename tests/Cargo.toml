@@ -1,0 +1,11 @@
+[package]
+name = "tests"
+version = "0.1.0"
+edition = "2021"
+
+[dev-dependencies]
+anyhow = "1.0.59"
+wasm-pack = "0.10.3"
+url = "2.2.2"
+thirtyfour = "0.30.0"
+tokio = { version = "=1.20.1", features = ["macros"] }
